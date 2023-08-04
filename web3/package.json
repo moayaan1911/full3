@@ -1,5 +1,7 @@
 {
   "name": "hardhat-project",
+  "license":"MIT",
+  "author": {"email": "ayaangames@gmail.com", "name": "Mohammad Ayaan Siddiqui", "url": "https://linktr.ee/ayaaneth"},
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",

@@ -3,6 +3,8 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
+  "license":"MIT",
+  "author": {"email": "ayaangames@gmail.com", "name": "Mohammad Ayaan Siddiqui", "url": "https://linktr.ee/ayaaneth"},
   "scripts": {
     "dev": "vite",
     "build": "vite build",
