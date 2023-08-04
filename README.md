@@ -1,8 +1,8 @@
 # FULL3 Setup (Frontend & Backend) - Powered by React, Hardhat, Tailwind, and Thirdweb
 
 ## INSTALLATION
-`npm install -g full3`
-`npx full3`
+- First Install as global dependency: `npm install -g full3`
+- Initialize new project: `npx full3`
 
 ## About the Package
 This is the app setup for a FULL STACK WEB3 project created by the FULL3 package. The FULL3 package is powered by the following technologies:
