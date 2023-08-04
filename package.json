@@ -1,0 +1,8 @@
+
+{
+  "scripts": {
+    "install-app": "cd app && yarn install",
+    "install-web3": "cd web3 && yarn install",
+    "install-all": "npm run install-app && npm run install-web3"
+  }
+}
