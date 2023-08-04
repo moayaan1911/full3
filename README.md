@@ -1,5 +1,10 @@
 # FULL3 Setup (Frontend & Backend) - Powered by React, Hardhat, Tailwind, and Thirdweb
 
+## INSTALLATION
+`npm install -g full3`
+`npx full3`
+
+## About the Package
 This is the app setup for a FULL STACK WEB3 project created by the FULL3 package. The FULL3 package is powered by the following technologies:
 
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces. It provides the foundation for creating interactive and dynamic UI components in the frontend of the web3 project.
