@@ -26,10 +26,7 @@ const clientId =
   "get your clientId at https://thirdweb.com/dashboard/settings/api-keys";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ThirdwebProvider
-      activeChain={activeChain}
-      clientId="22497561ab044cc43460a1b685475ac3"
-    >
+    <ThirdwebProvider activeChain={activeChain} clientId={clientId}>
       <App />
     </ThirdwebProvider>
   </React.StrictMode>

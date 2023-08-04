@@ -9,10 +9,10 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
-    mumbai: {
-      url: process.env.RPC_URL,
-      accounts: [process.env.PRIVATE_KEY],
-    },
+    // mumbai: {
+    //   url: process.env.RPC_URL,
+    //   accounts: [process.env.PRIVATE_KEY],
+    // },
     // sepolia: {
     //   url: process.env.RPC_URL,
     //   accounts: [process.env.PRIVATE_KEY],
@@ -53,7 +53,7 @@ module.exports = {
   etherscan: {
     apiKey: {
       // @dev Uncomment the network you want to use
-      polygonMumbai: process.env.ETHERSCAN_API_KEY,
+      // polygonMumbai: process.env.ETHERSCAN_API_KEY,
       // sepolia: process.env.ETHERSCAN_API_KEY,
       // arbitrumOne: process.env.ETHERSCAN_API_KEY, // arbitrum
       // optimisticEthereum: process.env.ETHERSCAN_API_KEY, // optimism
