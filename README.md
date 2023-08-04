@@ -1,10 +1,11 @@
 # FULL3 Setup (Frontend & Backend) - Powered by React, Hardhat, Tailwind, and Thirdweb
 
 ## INSTALLATION
-- First Install as global dependency: `npm install -g full3`
-- Initialize new project: `npx full3`
+- First Install as global dependency: **`npm install -g full3`**
+- Initialize new project: **`npx full3`**
 
-## About the Package
+
+## About the Starter
 This is the app setup for a FULL STACK WEB3 project created by the FULL3 package. The FULL3 package is powered by the following technologies:
 
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces. It provides the foundation for creating interactive and dynamic UI components in the frontend of the web3 project.
@@ -27,10 +28,10 @@ The FULL3 package simplifies the setup process for a full-stack web3 project. Us
 
 ## Scripts (Frontend)
 
-- **npm run dev**: Start the Vite development server.
-- **npm run build**: Build the project using Vite.
-- **npm run lint**: Run ESLint to check for code quality and enforce coding standards.
-- **npm run preview**: Start a Vite server to preview the built project.
+- **`npm run dev`**: Start the Vite development server.
+- **`npm run build`**: Build the project using Vite.
+- **`npm run lint`**: Run ESLint to check for code quality and enforce coding standards.
+- **`npm run preview`**: Start a Vite server to preview the built project.
 
 ## How to Run (Backend)
 
@@ -41,31 +42,31 @@ The FULL3 package simplifies the setup process for a full-stack web3 project. Us
 
 ## Deployment Scripts
 
-- **npm run deploy**: Deploy the project using the Hardhat framework to the Hardhat network.
-- **npm run deploy-mumbai**: Deploy the project to the Mumbai network.
-- **npm run deploy-mainnet**: Deploy the project to the Mainnet network.
-- **npm run deploy-sepolia**: Deploy the project to the Sepolia network.
-- **npm run deploy-bsc**: Deploy the project to the Binance Smart Chain (BSC) network.
-- **npm run deploy-bsctestnet**: Deploy the project to the BSC Testnet.
-- **npm run deploy-zkevm**: Deploy the project to the ZK-EVM network.
-- **npm run deploy-zkevmtestnet**: Deploy the project to the ZK-EVM Testnet.
-- **npm run deploy-optimism**: Deploy the project to the Optimism network.
-- **npm run deploy-eth**: Deploy the project to the Ethereum (ETH) network.
-- **npm run deploy-arbitrum**: Deploy the project to the Arbitrum network.
+- **`npm run deploy`**: Deploy the project using the Hardhat framework to the Hardhat network.
+- **`npm run deploy-mumbai`**: Deploy the project to the Mumbai network.
+- **`npm run deploy-mainnet`**: Deploy the project to the Mainnet network.
+- **`npm run deploy-sepolia`**: Deploy the project to the Sepolia network.
+- **`npm run deploy-bsc`**: Deploy the project to the Binance Smart Chain (BSC) network.
+- **`npm run deploy-bsctestnet`**: Deploy the project to the BSC Testnet.
+- **`npm run deploy-zkevm`**: Deploy the project to the ZK-EVM network.
+- **`npm run deploy-zkevmtestnet`**: Deploy the project to the ZK-EVM Testnet.
+- **`npm run deploy-optimism`**: Deploy the project to the Optimism network.
+- **`npm run deploy-eth`**: Deploy the project to the Ethereum (ETH) network.
+- **`npm run deploy-arbitrum`**: Deploy the project to the Arbitrum network.
 
 ## Other Useful Commands
 
 - **npm run node**: Start a local Hardhat node for development and testing purposes.
-- **npm run help**: Get help on Hardhat commands and usage.
-- **npm run networks**: List all available networks for deployment verification.
-- **npm run coverage**: Generate code coverage reports for the project.
+- **`npm run help`**: Get help on Hardhat commands and usage.
+- **`npm run networks`**: List all available networks for deployment verification.
+- **`npm run coverage`**: Generate code coverage reports for the project.
 
 ## Using Yarn
 
 To use Yarn for running the commands, replace `npm run` with `yarn` in the above command list. For example:
 
-- **yarn dev**: Start the Vite development server.
-- **yarn deploy**: Deploy the project using the Hardhat framework to the Hardhat network.
+- **`yarn dev`**: Start the Vite development server.
+- **`yarn deploy`**: Deploy the project using the Hardhat framework to the Hardhat network.
 
 For other commands like `yarn build`, `yarn lint`, `yarn preview`, `yarn node`, `yarn help`, `yarn networks`, and `yarn coverage`, simply replace `npm run` with `yarn` as well.
 
