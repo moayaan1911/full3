@@ -1,0 +1,43 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+
+    "print:hardhat": "echo 'Deploying your contract on Local Hardhat Network...'",
+    "print:mumbai": "echo 'Deploying your contract on Mumbai Testnet...'",
+    "print:mainnet": "echo 'Deploying your contract on Ethereum Mainnet...'",
+    "print:sepolia": "echo 'Deploying your contract on Sepolia Testnet...'",
+    "print:bsc": "echo 'Deploying your contract on BSC Mainnet...'",
+    "print:bsctestnet": "echo 'Deploying your contract on BSC Testnet...'",
+    "print:zkevm": "echo 'Deploying your contract on zkEVM Mainnet...'",
+    "print:zkevmtestnet": "echo 'Deploying your contract on zkEVM Testnet...'",
+    "print:optimism": "echo 'Deploying your contract on Optimism Mainnet...'",
+    "print:eth": "echo 'Deploying your contract on ETH Mainnet...'",
+    "print:arbitrum": "echo 'Deploying your contract on Arbitrum Mainnet...'",
+    
+    "deploy": "npm run print:hardhat && npx hardhat run scripts/deploy.js --network hardhat",
+    "deploy-mumbai": "npm run print:mumbai && npx hardhat run scripts/deploy.js --network mumbai",
+    "deploy-mainnet": "npm run print:mainnet && npx hardhat run scripts/deploy.js --network mainnet",
+    "deploy-sepolia": "npm run print:sepolia && npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy-bsc": "npm run print:bsc && npx hardhat run scripts/deploy.js --network bsc",
+    "deploy-bsctestnet": "npm run print:bsctestnet && npx hardhat run scripts/deploy.js --network bsctestnet",
+    "deploy-zkevm": "npm run print:zkevm && npx hardhat run scripts/deploy.js --network zkevm",
+    "deploy-zkevmtestnet": "npm run print:zkevmtestnet && npx hardhat run scripts/deploy.js --network zkevmtestnet",
+    "deploy-optimism": "npm run print:optimism && npx hardhat run scripts/deploy.js --network optimism",
+    "deploy-eth": "npm run print:eth && npx hardhat run scripts/deploy.js --network eth",
+    "deploy-arbitrum": "npm run print:arbitrum && npx hardhat run scripts/deploy.js --network arbitrum",
+
+    "node" : "npx hardhat node",
+    "help": "npx hardhat help",
+    "networks":"npx hardhat verify --list-networks",
+    "coverage":"npx hardhat coverage"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
