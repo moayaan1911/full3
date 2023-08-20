@@ -5,7 +5,6 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
-
     "print:hardhat": "echo 'Deploying your contract on Local Hardhat Network...'",
     "print:mumbai": "echo 'Deploying your contract on Mumbai Testnet...'",
     "print:mainnet": "echo 'Deploying your contract on Ethereum Mainnet...'",
@@ -16,8 +15,8 @@
     "print:zkevmtestnet": "echo 'Deploying your contract on zkEVM Testnet...'",
     "print:optimism": "echo 'Deploying your contract on Optimism Mainnet...'",
     "print:eth": "echo 'Deploying your contract on ETH Mainnet...'",
+    "print:polygon": "echo 'Deploying your contract on polygon Mainnet...'",
     "print:arbitrum": "echo 'Deploying your contract on Arbitrum Mainnet...'",
-    
     "deploy": "npm run print:hardhat && npx hardhat run scripts/deploy.js --network hardhat",
     "deploy-mumbai": "npm run print:mumbai && npx hardhat run scripts/deploy.js --network mumbai",
     "deploy-mainnet": "npm run print:mainnet && npx hardhat run scripts/deploy.js --network mainnet",
@@ -29,11 +28,10 @@
     "deploy-optimism": "npm run print:optimism && npx hardhat run scripts/deploy.js --network optimism",
     "deploy-eth": "npm run print:eth && npx hardhat run scripts/deploy.js --network eth",
     "deploy-arbitrum": "npm run print:arbitrum && npx hardhat run scripts/deploy.js --network arbitrum",
-
-    "node" : "npx hardhat node",
-    "help": "npx hardhat help",
-    "networks":"npx hardhat verify --list-networks",
-    "coverage":"npx hardhat coverage"
+     "deploy-polygon": "npm run print:polygon && npx hardhat run scripts/deploy.js --network polygon",
+    "node": "npx hardhat node",
+    "help-hardhat": "npx hardhat help",
+    "coverage": "npx hardhat coverage"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
